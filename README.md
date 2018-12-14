@@ -1,20 +1,20 @@
-Intermediate Programming Course Project
 Collaboration between: Jennifer Lin and Chester Huynh
 
 Image Manipulator 
 ------------------
-A command-line-based user interface image manipulator. 
-The program will be able to read PPM image files from disk, perform one of a variety of image manipulation tasks, 
-and then write the result back to disk as a new PPM image file. 
+Intermediate Programming Course Project
+
+A command-line-based user interface image manipulator. The program will be able to read PPM image files from disk, 
+perform one of a variety of image manipulation tasks, and then write the result back to disk as a new PPM image file. 
 
 The operations supported by the program include:
-  swap - swap color channels (i.e. what was red becomes blue, what was blue becomes green, etc.)
-  grayscale - convert to grayscale (i.e. a full-color image becomes shades of gray)
-  contrast - increase/decrease contrast
-  zoom_in - replicate each pixel 4 times so that image appears to be zoomed in
-  zoom_out - reduce each block of 4 pixels to one "average" pixel so that image appears to be zoomed out
-  occlude - black out (or "occlude") a specified rectangular region of the image
-  blur - blur the image (smooth and soften its edges) by a specified amount
+- swap - swap color channels (i.e. what was red becomes blue, what was blue becomes green, etc.)
+- grayscale - convert to grayscale (i.e. a full-color image becomes shades of gray)
+- contrast - increase/decrease contrast
+- zoom_in - replicate each pixel 4 times so that image appears to be zoomed in
+- zoom_out - reduce each block of 4 pixels to one "average" pixel so that image appears to be zoomed out
+- occlude - black out (or "occlude") a specified rectangular region of the image
+- blur - blur the image (smooth and soften its edges) by a specified amount
 
 For example, at the command prompt, a user of your program might type 
 ./project nika.ppm nika-zoom_in.ppm zoom_in
