@@ -31,4 +31,4 @@ Code Files
 - Makefile
 - ppmIO.h, ppmIO.c - Read in and write out the PPM image files
 - ImageManip.h, ImageManip.c - Various image manipulation operations
-- project.c - Command Line interactions in main method
+- project.c - command line interactions in main method
