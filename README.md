@@ -2,7 +2,7 @@ Collaboration between: Jennifer Lin and Chester Huynh
 
 Image Manipulator 
 ------------------
-Intermediate Programming Course Project
+Intermediate Programming Course Project (C)
 
 A command-line-based user interface image manipulator. The program will be able to read PPM image files from disk, 
 perform one of a variety of image manipulation tasks, and then write the result back to disk as a new PPM image file. 
